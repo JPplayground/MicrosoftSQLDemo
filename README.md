@@ -11,6 +11,6 @@ This project contains a set of classes and tests to read, process, and verify da
 
 ## Setup and Usage
 - Ensure that you have a Microsoft SQL Server instance running and accessible.
-- Modify the connectionUrl in SQLTests to match your SQL Server configuration. 
+- Modify the connectionUrl in SQLTests to match your SQL Server configuration. (Server name can be found in Microsoft SQL Server Management Studio)
+    - `String connectionUrl = "jdbc:sqlserver://{SERVER_NAME};databaseName={DATABASE_NAME};integratedSecurity=true;trustServerCertificate=true"` 
 - Run the tests using JUnit to verify the functionality.
-
